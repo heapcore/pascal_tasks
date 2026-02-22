@@ -1,0 +1,19 @@
+program NumOfCombinations;
+{ Description: Compute binomial coefficient n choose k. }
+
+var
+  i, n, k: byte;
+  num, denom: integer;
+
+begin
+  readln(n, k);
+  num := 1;
+  for i := n downto n - k + 1 do begin
+    num := num * i
+  end;
+  denom := 1;
+  for i := 1 to k do begin
+    denom := denom * i
+  end;
+  writeln(num div denom)
+end.

@@ -1,0 +1,23 @@
+# FreePascal / Delphi outputs
+*.exe
+*.dll
+*.so
+*.o
+*.obj
+*.ppu
+*.or
+*.a
+*.dcu
+*.compiled
+*.local
+*.log
+*.bak
+*~
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
